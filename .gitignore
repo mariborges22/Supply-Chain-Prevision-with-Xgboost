@@ -1,0 +1,17 @@
+
+# Ignore the dataset file
+*.csv
+*.xlsx
+*.gsheet # Added rule to ignore .gsheet files
+
+# Ignore the generated preprocessed dataset
+dataset_preprocessado_transformado_focado.csv
+
+# Ignore the drive directory mounted from Google Drive
+# drive/ # Removing this line to allow adding files from Drive
+
+# Ignore the sample_data directory (Colab default)
+sample_data/
+
+# Ignore the .config directory (Colab default)
+.config/
